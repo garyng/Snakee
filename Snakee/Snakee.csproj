@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64656EE0-55BA-4A1F-A1EE-69C1E108F887}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snakee</RootNamespace>
+    <AssemblyName>Snakee</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class_FasterBitmap.cs" />
+    <Compile Include="Class_Game.cs" />
+    <Compile Include="Class_Map.cs" />
+    <Compile Include="Control_ClassicScoller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control_ExpandablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control_PictureListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control_TriangleBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form_MapEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MapEditor.Designer.cs">
+      <DependentUpon>Form_MapEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MapLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MapLoader.Designer.cs">
+      <DependentUpon>Form_MapLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Settings.Designer.cs">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module_MapEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_MapLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_SettingsClass.cs" />
+    <Compile Include="Control_CustomTxtBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control_CustomTxtBox.designer.cs">
+      <DependentUpon>Control_CustomTxtBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control_CustomTxtButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control_CustomTxtButton.Designer.cs">
+      <DependentUpon>Control_CustomTxtButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_CustomPicBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form_Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Splash.Designer.cs">
+      <DependentUpon>Form_Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module_CustomTxtBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module_CustomTxtButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Module_Highscore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Highscore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Highscore.Designer.cs">
+      <DependentUpon>Form_Highscore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module_PublicFunction.cs" />
+    <Compile Include="Module_PublicStruct.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WIN32API.cs" />
+    <EmbeddedResource Include="Control_CustomTxtBox.resx">
+      <DependentUpon>Control_CustomTxtBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control_CustomTxtButton.resx">
+      <DependentUpon>Control_CustomTxtButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Highscore.resx">
+      <DependentUpon>Form_Highscore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MapEditor.resx">
+      <DependentUpon>Form_MapEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MapLoader.resx">
+      <DependentUpon>Form_MapLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Settings.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Splash.resx">
+      <DependentUpon>Form_Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snakee_splash.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
