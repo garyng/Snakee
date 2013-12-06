@@ -155,31 +155,41 @@ Screenshot
 Some of the screenshot while running
 
 Main Screen:
+
 ![Main Screen](/Screenshots/Main.png "Snakee Main Screen")
 
 Playing:
+
 ![Playing](/Screenshots/Play-Main.png "Playing")
 
 Paused:
+
 ![Paused](/Screenshots/Play-Main.png "Paused")
 
 Highscore:
+
 ![Highscore](/Screenshots/Play-Paused.png "Highscore")
 
 Map Editor:
+
 ![Map Editor - Main](/Screenshots/MapEditor-Main.png "Map Editor - Main")
 
 Map Editor - Map Info Editor:
+
 ![Map Editor - Map Info Editor](/Screenshots/MapEditor-InfoEditor.png "Map Editor - Info Editor")
 
 Map Editor - Edit Map:
+
 ![Map Editor - Edit Map](/Screenshots/MapEditor-Map.png "Map Editor - Edit Map")
 
-Map Loader
+Map Loader:
+
 ![Map Loaded](/Screenshots/MapLoader.png "Map Loader")
 
-God Mode
+God Mode:
+
 ![God Mode](/Screenshots/GodMode.png "God Mode")
 
-Some Bugs
+Some Bugs:
+
 ![Easter Egg](/Screenshots/EasterEgg.png "Easter Egg")
