@@ -164,11 +164,11 @@ Playing:
 
 Paused:
 
-![Paused](/Screenshots/Play-Main.png "Paused")
+![Paused](/Screenshots/Play-Paused.png "Paused")
 
 Highscore:
 
-![Highscore](/Screenshots/Play-Paused.png "Highscore")
+![Highscore](/Screenshots/Highscore.png "Highscore")
 
 Map Editor:
 
